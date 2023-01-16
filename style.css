@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: ;
+    background-color: rgb(61, 60, 60);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: ;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name {
+    font-family: 'Carter One', cursive;
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+.profilePic {
+    margin-top: 50%;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 255, 98, 0.2);
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    margin-top: 24px;
+}
+
+.linkedIn {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.standIn {
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: Helvetica;
+    margin-bottom: 12px;
+}
+
+a {
+    color: white;
+}
